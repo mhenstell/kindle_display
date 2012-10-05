@@ -43,12 +43,22 @@
 
 <g font-family="DejaVu Sans">
 <text style="text-anchor:middle;" font-size="35px" y="52.256058" x="76.039063">Today:</text>
-<text style="text-anchor:middle;" font-size="35px" y="121.70689" x="446.26932">High:</text>
-<text style="text-anchor:end;" font-size="100px" y="209.20592" x="526.72095">HIGH_ONE</text>
-<text style="text-anchor:middle;" font-size="64px" y="182.48717" x="548.30981">°F</text>
-<text style="text-anchor:middle;" font-size="35px" y="275.13895" x="440.80057">Low:</text>
-<text style="text-anchor:end;" font-size="100px" y="359.8533" x="526.23267">LOW_ONE</text>
-<text style="text-anchor:middle;" font-size="64px" y="333.13455" x="548.30981">°F</text>
+<text style="text-anchor:end;" font-size="100px" y="120" x="550">CURRENT</text>
+<text style="text-anchor:middle;" font-size="35px" y="60" x="565">°F</text>
+
+<text style="text-anchor:start;" font-size="35px" y="200" x="375">High:</text>
+<text style="text-anchor:start;" font-size="35px" y="200" x="500">HIGH_ONE</text>
+<text style="text-anchor:middle;" font-size="25px" y="190" x="560">°F</text>
+
+<text style="text-anchor:start;" font-size="35px" y="260" x="375">Low:</text>
+<text style="text-anchor:start;" font-size="35px" y="260" x="500">LOW_ONE</text>
+<text style="text-anchor:middle;" font-size="25px" y="250" x="560">°F</text>
+
+<text style="text-anchor:start;" font-size="35px" y="320" x="375">RAIN_BOOL</text>
+<text style="text-anchor:start;" font-size="35px" y="320" x="500">RAIN_PERC</text>
+
+<text style="text-anchor:start;" font-size="35px" y="380" x="375">SNOW_BOOL</text>
+<text style="text-anchor:start;" font-size="35px" y="380" x="500">SNOW_PERC</text>
 
 <text style="text-anchor:middle;" font-size="32px" y="465.16922" x="102.92969">Tomorrow:</text>
 <text style="text-anchor:middle;" font-size="20px" y="635.68347" x="74.958336">High:</text>
