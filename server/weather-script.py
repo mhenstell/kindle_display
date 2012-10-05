@@ -33,6 +33,20 @@ for item in xml_temperatures:
         for i in range(len(values)):
             lows[i] = int(values[i].firstChild.nodeValue)
 
+pop = dom.getElementsByTagName('probability-of-precipitation')
+for item in pop:
+	values = item.getElementsByTagName('value')
+	#for i in range(len(values)):
+		#print values[i].firstChild.nodeValue
+
+
+time_layout = dom.getElementsByTagName('time-layout')
+for item in time_layout:
+	values = item.getElementsByTagName('summarization')
+	for i in range(len(values)):
+		print values[i].firstChild.nodeValue
+
+
 # Parse icons
 xml_icons = dom.getElementsByTagName('icon-link')
 icons = [None]*4
